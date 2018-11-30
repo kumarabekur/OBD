@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obd>
+	<status>
+	  <cpu>
+			<processor>IMX6ULL</processor>
+			<clock_speed>560MHz</clock_speed>
+			<ddr3>512MB</ddr3>
+			<nand>1024MB</nand>
+	  </cpu>
+	  
+	  <io>
+		<ain1> 1.3 </ain1>
+		<ignition_pin>0</ignition_pin>  
+	  </io>
+	  
+	  <gsm_gprs>
+		<sim_status>0</sim_status>
+		<network_status>1</network_status>
+	  </gsm_gprs>
+	  
+	  <software>
+		<linux_version>3.14.38+ge4944a5</linux_version>
+	  </software>
+	  
+	</status>
+	
+	<sim_config>
+		<apn_name>idea.gprs.comln;kjn'kl</apn_name>
+		<access_point>**99***#</access_point>
+		<password_required>1</password_required>
+		<sim_username> abhi12jkhjkhjkh</sim_username>
+		<sim_password>1234 klbkljbk</sim_password>
+		<mode>1</mode>
+		<flight_mode>1</flight_mode>
+	</sim_config>
+	
+		<cloud_azure>
+			<host>azure.m,n;jkln/kl</host>
+			<port>443</port>
+			<device_id>4321</device_id>
+			<device_type>OBDIIljbhkljhl</device_type>
+			<iot_hub_name>iotiwave';lj;kljpkl</iot_hub_name>
+			<sas_token> </sas_token>
+		</cloud_azure>
+
+	<settings>
+		<general>
+			<mode>2</mode>
+			<sampling_frequency>5</sampling_frequency>
+			<can_sign>4</can_sign>
+			<fatige_detection>3</fatige_detection>
+			<idle_time>2</idle_time>
+		</general>
+		
+		<threshold>
+			<harsh_brake>
+				<source>2</source>
+				<threshold>2</threshold>
+			</harsh_brake>
+			<harsh_acceleration>
+				<source>2</source>
+				<threshold>3</threshold>
+			</harsh_acceleration>
+			<crash>
+				<source>2</source>
+				<threshold>4</threshold>
+			</crash>
+			<harsh>
+				<source>2</source>
+				<threshold>5</threshold>
+			</harsh>
+			<overspeed>
+				<source>2</source>
+				<threshold>6</threshold>
+				<duration>8</duration>
+			</overspeed>
+			<odometer>
+				<base_value>7</base_value>
+			</odometer>
+			<idle>
+				<threshold>60</threshold>
+			</idle>
+			<over_temp>
+				<threshold>9</threshold>
+			</over_temp>
+			<rpm>
+				<threshold>10</threshold>				
+			</rpm>
+			<fatige>
+				<threshold>60</threshold>
+			</fatige>
+		</threshold>
+		
+		<io>
+			<ain1>
+				<source>0</source>
+			</ain1>
+			<din1>
+				<source>3</source>
+			</din1>
+			<din2>
+				<source>4</source>
+			</din2>
+			<dout1>
+				<source>1</source>
+			</dout1>
+			<dout2>
+				<source>2</source>
+			</dout2>
+		</io>
+	</settings>
+	
+	<firmware>
+		<file_system>file</file_system>
+		<cloud>AWS</cloud>
+    </firmware>
+    
+    <black_box>
+		<file_name>file</file_name>
+    </black_box>
+    
+    <immobilizer>
+		<whitelist>
+			<value1>7777777707</value1>
+			<value2>7777777717</value2>
+			<value3>7777777727</value3>
+			<value4>7777777737</value4>
+			<value5>7777777747</value5>
+			<value6>7777777757</value6>
+			<value7>7777777767</value7>
+			<value8>7777777777</value8>
+			<value9>7777777787</value9>
+			<value10>777777797</value10>
+		</whitelist>
+    </immobilizer>
+    <login>
+		<user_id>usr1</user_id>
+		<password>pwd_1</password>
+    </login>
+
+</obd>
